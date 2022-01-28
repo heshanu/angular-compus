@@ -19,7 +19,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,ElementsModule,CollectionsModule //added imported elementModule
+    ElementsModule,CollectionsModule,AppRoutingModule //added imported elementModule
   ],
   providers: [],
   bootstrap: [AppComponent]
