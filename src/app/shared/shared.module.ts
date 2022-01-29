@@ -10,6 +10,8 @@ import { DividerComponent } from './divider/divider.component';
   ],
   imports: [
     CommonModule
+  ],exports:[
+    DividerComponent
   ]
 })
 export class SharedModule { }
