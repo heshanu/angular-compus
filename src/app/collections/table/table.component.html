@@ -1,2 +1,18 @@
-
-<p>table works!</p>
+<table class="ui table">
+    <thead>
+        <tr>
+            <th *ngFor="let header of headers">
+                <tr>{{header.label}}</tr>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td *ngFor="let d of data">
+                <tr>{{d.name}}</tr>
+                <tr>{{d.age}}</tr>
+                <tr>{{d.job}}</tr>
+            </td>
+        </tr>
+    </tbody>
+</table>
