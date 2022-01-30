@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./collections-home.component.css']
 })
 export class CollectionsHomeComponent implements OnInit {
+
+  partOfLink='hii';
   data=[
     {name:'hehab',age:24,job:'desiger',employed:true},
     {name:'hehab',age:25,job:'desiger',employed:false},
