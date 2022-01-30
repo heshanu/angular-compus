@@ -7,7 +7,8 @@ import { PartnersComponent } from './partners/partners.component';
 import { CompaniesComponent } from './companies/companies.component';
 
 const routes: Routes = [
-  {path:'',
+  {
+    path:'',
   component:CollectionsHomeComponent,
   children:[
     {path:'',component:BiographyComponent},
