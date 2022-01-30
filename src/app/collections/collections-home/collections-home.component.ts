@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class CollectionsHomeComponent implements OnInit {
   data=[
     {name:'hehab',age:24,job:'desiger'},
-    {name:'hehab',age:24,job:'desiger'},
-    {name:'hehab',age:24,job:'desiger'},
-    {name:'hehab',age:24,job:'desiger'}
+    {name:'hehab',age:25,job:'desiger'},
+    {name:'hehab',age:26,job:'desiger'},
+    {name:'hehab',age:27,job:'desiger'}
   ];
   headers=[
     {key:'name',label:'Name'},

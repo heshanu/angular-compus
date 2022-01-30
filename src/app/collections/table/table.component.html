@@ -7,12 +7,10 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td *ngFor="let d of data">
-                <tr>{{d.name}}</tr>
-                <tr>{{d.age}}</tr>
-                <tr>{{d.job}}</tr>
-            </td>
+        <tr *ngFor="let d of data">
+            <td>{{d.name}}</td>
+            <td>{{d.age}}</td>
+            <td>{{d.job}}</td>
         </tr>
     </tbody>
 </table>
