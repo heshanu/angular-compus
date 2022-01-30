@@ -15,7 +15,6 @@ const routes: Routes = [
     {path:'companies',component:CompaniesComponent},
     {path:'partners',component:PartnersComponent}
   ]}, // addded lazy laoding 
-  {path:'par'}
 ];
 
 @NgModule({
