@@ -1,1 +1,10 @@
-<p>statistics works!</p>
+<div class="ui statistics">
+    <div class="statistic" *ngFor="let s of data">
+        <div class="value">
+            {{s.value}}
+        </div>
+        <div class="label">
+            {{s.label}}
+        </div>
+    </div>
+</div>
