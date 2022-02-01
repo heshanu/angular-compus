@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import {NotFoundComponent} from './not-found/not-found.component';
 import { ViewsHomeComponent } from './views/views-home/views-home.component';
 //import { ElementsHomeComponent } from './elements/elements-home/elements-home.component';
+import { ModalComponent } from './mods/modal/modal.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,11 @@ const routes: Routes = [
   path:'views',
   loadChildren:()=>import('./views/views.module').then(m=>m.ViewsModule)
 },
+{
+  path:'mods',
+  loadChildren:()=>import('./mods/mods.module').then(m=>m.ModsModule)
+},
+
   {path:'',component:HomeComponent},
   {path:'**',component:NotFoundComponent},
  
