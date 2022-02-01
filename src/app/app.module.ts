@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 //import { ViewsHomeComponent } from './views/views-home/views-home.component';
+//import { ModalComponent } from './mods/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule //added imported elementModule
+    AppRoutingModule//added imported elementModule
   ],
   providers: [],
   bootstrap: [AppComponent]
