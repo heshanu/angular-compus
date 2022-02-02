@@ -7,7 +7,7 @@ import { Component, OnInit,ElementRef,Output,EventEmitter} from '@angular/core';
 })
 export class ModalComponent implements OnInit {
 
-
+  @Output() close=new EventEmitter();
 
   constructor(private el:ElementRef) {}
     
@@ -19,7 +19,8 @@ export class ModalComponent implements OnInit {
     this.el.nativeElement.remove();
   }
 
-  onCloseClick(){
-
+  //when we called method it references evenemiiter  any event
+   onCloseClick(){
+    this.close.emit();
   }
 }
