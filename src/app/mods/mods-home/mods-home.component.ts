@@ -9,6 +9,12 @@ export class ModsHomeComponent implements OnInit {
 
   modalOpen=false;
 
+  items:any=[
+    {title:'Hressss',content:'sssssssssssssssssss'},
+    {title:'Hressss',content:'sssssssssssssssssss'},
+    {title:'Hressss',content:'sssssssssssssssssss'}
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
