@@ -15,6 +15,7 @@ export class ModsHomeComponent implements OnInit {
   }
 
   onClick(){
-    this.modalOpen=!this.modalOpen;
+    //this.modalOpen=!this.modalOpen;
+    this.modalOpen=!this.modalOpen
   }
 }
