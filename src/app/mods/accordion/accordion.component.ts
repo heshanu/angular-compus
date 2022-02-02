@@ -16,7 +16,12 @@ export class AccordionComponent implements OnInit {
   ngOnInit(): void {
   }
   onClick(index:number){
+    if(index==this.openItemIndex){
+      this.openItemIndex=-1;
+    }
+    else{
     this.openItemIndex=index;
-  }
+    }
 
+}
 }
